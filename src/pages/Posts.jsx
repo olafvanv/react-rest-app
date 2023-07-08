@@ -20,7 +20,7 @@ const Posts = () => {
 
   if (posts.length) {
     return (
-      <>
+      <div>
         <h1>Posts</h1>
         <div className="posts">
           {posts.map((post) => (
@@ -35,7 +35,7 @@ const Posts = () => {
             </div>
           ))}
         </div>
-      </>
+      </div>
     );
   }
 };
